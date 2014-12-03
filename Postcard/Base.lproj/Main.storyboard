@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Barcelona-->
         <scene sceneID="9of-VR-cdy">
             <objects>
                 <viewController id="vQt-OA-Q4g" sceneMemberID="viewController">
@@ -34,8 +34,8 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="PGp-N6-uUw">
-                        <barButtonItem key="rightBarButtonItem" title="View Message" id="G2d-18-Cjy">
+                    <navigationItem key="navigationItem" title="Barcelona" id="PGp-N6-uUw">
+                        <barButtonItem key="rightBarButtonItem" title="Message" id="G2d-18-Cjy">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="L8K-ML-jah"/>
                             </connections>
@@ -57,7 +57,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LSN-lm-f2k">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="209" y="72" width="120" height="80"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LSN-lm-f2k"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="LSN-lm-f2k"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -84,6 +102,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AlbertEinsteinStamp.jpg" width="1917" height="1344"/>
         <image name="SagradaFamilia.jpeg" width="205" height="245"/>
     </resources>
 </document>
