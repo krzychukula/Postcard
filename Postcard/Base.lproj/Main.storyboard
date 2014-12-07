@@ -123,6 +123,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="enterMessageTextField" destination="NcY-GX-Ykl" id="xeh-tz-wfp"/>
+                        <outlet property="enterNameTextField" destination="Fso-pm-rcB" id="oKw-Ld-JZD"/>
                         <outlet property="messageLabel" destination="4NI-hc-NVh" id="S1b-gO-S88"/>
                     </connections>
                 </viewController>
