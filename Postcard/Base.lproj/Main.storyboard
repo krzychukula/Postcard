@@ -122,6 +122,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="4NI-hc-NVh" id="S1b-gO-S88"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
