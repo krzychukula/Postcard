@@ -81,6 +81,15 @@
                                     <rect key="frame" x="16" y="240" width="332" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NI-hc-NVh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="185" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8V-mP-Zh3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
@@ -91,16 +100,10 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="285" width="332" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsx-LF-Gmp"/>
+                                </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NI-hc-NVh">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="185" height="21"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -108,8 +111,8 @@
                                 <exclude reference="LSN-lm-f2k"/>
                                 <exclude reference="Fso-pm-rcB"/>
                                 <exclude reference="NcY-GX-Ykl"/>
-                                <exclude reference="m8V-mP-Zh3"/>
                                 <exclude reference="4NI-hc-NVh"/>
+                                <exclude reference="m8V-mP-Zh3"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -117,8 +120,8 @@
                                 <include reference="LSN-lm-f2k"/>
                                 <include reference="Fso-pm-rcB"/>
                                 <include reference="NcY-GX-Ykl"/>
-                                <include reference="m8V-mP-Zh3"/>
                                 <include reference="4NI-hc-NVh"/>
+                                <include reference="m8V-mP-Zh3"/>
                             </mask>
                         </variation>
                     </view>

@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var enterNameTextField: UITextField!
+    @IBOutlet weak var enterMessageTextField: UITextField!
     
 
     override func viewDidLoad() {
@@ -23,6 +25,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func sendMailButtonPressed(sender: UIButton) {
+    }
 
 }
 
